@@ -1,0 +1,8 @@
+#. Crie um algoritmo que calcule a área de umtrapézio (𝐴 =(𝐵+𝑏).ℎ2). Use uma calculadora para verificar se seu algoritmo está correto.
+#Digite a base maior do trapézio: 3.8
+#Digite a base menor do trapézio: 2.4
+#Digite a altura do trapézio: 1.8
+#A área do trapézio é: 5.580.
+
+bmaior = float(input("Digite a base maior do trapézio: "))
+bmenor = float(input("Digite a base menor do trapézio: "))
