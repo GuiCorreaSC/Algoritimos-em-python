@@ -1,0 +1,9 @@
+import math
+
+x = float(input("Digite um número real: "))
+
+if x >= 0:
+  y = math.sqrt(x)
+  print("A raiz é: ",y)
+else:
+  print("Nao exite raiz de numero negativo!") 
