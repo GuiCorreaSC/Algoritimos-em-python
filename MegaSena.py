@@ -3,10 +3,12 @@ import random
 n = int(input("Quantas dezenas deseja sortear?"))
 print("Sorteei para você os seguintes números.")
 
-sorteio = [] # cria uma lista para essa variavel
+sorteio = []
 
-for i in range(0,n): # limita os numeros de inicio a fim
-  x = random.randint(1,60) # escolhe um numero random a cada fez que o range rodar
-  sorteio.append(x) # adiciona o numero sorteado na variavel 
+for i in range(0,n):
+  x = random.randint(1,60)
+  while x not in sorteio: # enquanto x nao estiver na variavel ele adiciona 
+    x = random.randint(1,60)
+    sorteio.append(x)
 
-print(sorted(sorteio)) # sorted ordena os numeros do menor pro maior
+print(sorted(sorteio))
